@@ -26,9 +26,6 @@ var EnField = {
       for(var elementI = 0, elementN = elementList.length; elementI < elementN; ++elementI){
         passedObject.idObject[elementI] = elementList[elementI];
       }
-      // document.querySelectorAll("*[id]").forEach(function(element){
-      //   passedObject.idList.push(element.getAttribute("id"));
-      // });
     }else{
       passedObject.idObject = {};
       var  elementList = passedObject.queryElement.querySelectorAll("*[id]");
@@ -39,7 +36,6 @@ var EnField = {
       }
     }
     passedObject.idObject[elementI] = passedObject.queryElement;
-    console.log(passedObject);
     EnField.generateVariables(passedObject.targetObject, passedObject.queryElement, passedObject.idObject);
   },
 
@@ -52,13 +48,6 @@ var EnField = {
       var idName = idObject[elementI].getAttribute("id");
       targetObject[EnField.getValidVariableName(idName)] = idObject[elementI];
     }
-
-    // queryElement.querySelectorAll("*[id]").forEach(function(element){
-    //   var idName = element.getAttribute("id");
-    //   if(idList.indexOf(idName) > -1){
-    //     targetObject[EnField.getValidVariableName(idName)] = element;
-    //   }
-    // });
   },
 
   getValidVariableName: function(idName){
@@ -70,13 +59,6 @@ var EnField = {
     }
     return variableName;
   }
-
 };
-
-var t = {};
-var p = {};
-t.targetObject = p;
-t.queryElement = "searchform";
-t.idList = [];
 
 module.exports.EnField = EnField;
