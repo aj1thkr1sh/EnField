@@ -1,0 +1,16 @@
+{
+  "name": "enfield",
+  "version": "1.0.0",
+  "description": "EnField is the HTML DOM to JavaScript variable mapper ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "enfield",
+    "variable",
+    "web"
+  ],
+  "author": "Ajith Krish <mailingtoajith@gmail.com>",
+  "license": "ISC"
+}
