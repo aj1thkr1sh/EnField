@@ -45,10 +45,11 @@ The
 DOM will map to variable
 ```_name```
 
-### :heart_eyes: How cool, right?
+#:heart_eyes:
+###How cool, right?
 
 
-### Naming Convention( What will be the name of the variable? )
+### :gear: Naming Convention( What will be the name of the variable? )
 The name given to the id that is ```id="name"```, the "name" is taken, appending with preceding underscore, so, the ```_name```  is the variable generated, that will be added to window object.  So, directly using ```_name``` will refer to that HTML DOM
 
 ### :wrench: EnFields parameters
