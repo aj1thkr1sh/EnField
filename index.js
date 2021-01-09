@@ -1,3 +1,1 @@
-var enfield = require("./enfield");
-
-console.log(enfield);
+var enfields = require("./enfields");
