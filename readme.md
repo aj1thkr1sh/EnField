@@ -25,10 +25,10 @@ var mobileNumber = document.getElementById("mobile_number");
 ```
 then you can get the values or attach event or whatever you want to manipulate the HTML DOM
 
-#### What if the library done this for you?
+#### :thinking: What if the library done this for you?
 ## Say Hi, to EnFields
 EnFields does the process for you
-## :thinking: How?
+## :astonished: How?
 It is very simple.  Include the library in you webpage
 
 ```
@@ -39,19 +39,19 @@ then,
 EnFields.start();
 ```
 
-### Ta-da!
+### :tada: Ta-da!
 The
 ```<input type="text" id="name" placeholder="Name">```
 DOM will map to variable
 ```_name```
 
-#### :heart_eyes: How cool, right?
+### :heart_eyes: How cool, right?
 
 
 ### Naming Convention( What will be the name of the variable? )
 The name given to the id that is ```id="name"```, the "name" is taken, appending with preceding underscore, so, the ```_name```  is the variable generated, that will be added to window object.  So, directly using ```_name``` will refer to that HTML DOM
 
-### EnFields parameters
+### :wrench: EnFields parameters
 
 ```EnFields.start()``` accepts the object of below type,
 
