@@ -28,7 +28,7 @@ then you can get the values or attach event or whatever you want to manipulate t
 #### What if the library done this for you?
 ## Say Hi, to EnFields
 EnFields does the process for you
-## How?
+## :thinking: How?
 It is very simple.  Include the library in you webpage
 
 ```
@@ -39,13 +39,13 @@ then,
 EnFields.start();
 ```
 
-### Ta-da! :tada:
+### Ta-da!
 The
 ```<input type="text" id="name" placeholder="Name">```
 DOM will map to variable
 ```_name```
 
-#### How cool, right?
+#### :heart_eyes: How cool, right?
 
 
 ### Naming Convention( What will be the name of the variable? )
@@ -105,3 +105,4 @@ EnFields.start({
 });
 
 ```
+[:star: on GitHub](https://github.com/aj1thkr1sh/EnField) if you love
