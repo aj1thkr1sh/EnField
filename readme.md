@@ -39,7 +39,7 @@ then,
 EnFields.start();
 ```
 
-### Ta-da!
+### Ta-da! :tada:
 The
 ```<input type="text" id="name" placeholder="Name">```
 DOM will map to variable
