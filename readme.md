@@ -25,7 +25,7 @@ var mobileNumber = document.getElementById("mobile_number");
 ```
 then you can get the values or attach event or whatever you want to manipulate the HTML DOM
 
-#### :thinking: What if the library dose this for you?
+#### :thinking: What if the library does this for you?
 ## Say Hi, to EnFields
 EnFields does the process for you
 ## :astonished: How?
