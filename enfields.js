@@ -56,8 +56,12 @@ var EnFields = {
   getValidVariableName: function(idName){
     var variableName = "_";
     for(var nameI = 0, nameN = idName.length; nameI < nameN; ++nameI){
-      if(EnFields.variableRegex.test(idName.charAt(nameI)) || idName.charAt(nameI) === "_"){
-        variableName += idName.charAt(nameI);
+      if(EnFields.variableRegex.test(idName.charAt(nameI)) || idName.charAt(nameI) === "_" || idName.charAt(nameI) === "-"){
+        var replacingCharacter = idName.charAt(nameI);
+        if(replacingCharacter === "-"){
+          replacingCharacter = "_";
+        }
+        variableName += replacingCharacter;
       }
     }
     return variableName;

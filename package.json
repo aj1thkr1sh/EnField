@@ -1,7 +1,7 @@
 {
   "name": "enfields",
-  "version": "1.0.9",
-  "description": "EnFields is the HTML DOM to JavaScript variable mapper ",
+  "version": "1.0.15",
+  "description": "EnFields is the HTML DOM to JavaScript variable mapper",
   "main": "enfields.js",
   "scripts": {
     "test": "test.js"
