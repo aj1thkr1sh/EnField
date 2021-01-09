@@ -1,4 +1,4 @@
-![EnFields](EnFields_Cover.png)
+![EnFields](https://raw.githubusercontent.com/aj1thkr1sh/EnField/main/Enfields_Cover.png)
 
 # EnFields
 Say, if you are developing the web application in JavaScript
